@@ -1,0 +1,276 @@
+[
+  {
+    "ContainingType": "GymTimeServer.Controllers.BookingsController",
+    "Method": "Book",
+    "RelativePath": "api/Bookings",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "b",
+        "Type": "GymTimeServer.Models.Booking",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymTimeServer.Controllers.BookingsController",
+    "Method": "CancelMyBooking",
+    "RelativePath": "api/Bookings/{bookingId}/cancel",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookingId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "clientId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymTimeServer.Controllers.BookingsController",
+    "Method": "ChangeStatus",
+    "RelativePath": "api/Bookings/{bookingId}/status",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookingId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "newStatus",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymTimeServer.Controllers.BookingsController",
+    "Method": "GetClassParticipants",
+    "RelativePath": "api/Bookings/class/{classId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "classId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymTimeServer.Controllers.BookingsController",
+    "Method": "GetMyBookings",
+    "RelativePath": "api/Bookings/client/{clientId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymTimeServer.Controllers.ClassesController",
+    "Method": "Add",
+    "RelativePath": "api/Classes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gc",
+        "Type": "GymTimeServer.Models.GymClass",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymTimeServer.Controllers.ClassesController",
+    "Method": "Update",
+    "RelativePath": "api/Classes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "gc",
+        "Type": "GymTimeServer.Models.GymClass",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymTimeServer.Controllers.ClassesController",
+    "Method": "Cancel",
+    "RelativePath": "api/Classes/{id}/cancel",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymTimeServer.Controllers.ClassesController",
+    "Method": "GetManagerSchedule",
+    "RelativePath": "api/Classes/manager",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fromDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymTimeServer.Controllers.ClassesController",
+    "Method": "GetSchedule",
+    "RelativePath": "api/Classes/schedule",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymTimeServer.Controllers.ClassTypesController",
+    "Method": "GetAll",
+    "RelativePath": "api/ClassTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymTimeServer.Controllers.ClassTypesController",
+    "Method": "Add",
+    "RelativePath": "api/ClassTypes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "t",
+        "Type": "GymTimeServer.Models.ClassType",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymTimeServer.Controllers.ClassTypesController",
+    "Method": "Update",
+    "RelativePath": "api/ClassTypes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "t",
+        "Type": "GymTimeServer.Models.ClassType",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymTimeServer.Controllers.ClassTypesController",
+    "Method": "Delete",
+    "RelativePath": "api/ClassTypes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymTimeServer.Controllers.ClientsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Clients",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymTimeServer.Controllers.ClientsController",
+    "Method": "Login",
+    "RelativePath": "api/Clients/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "GymTimeServer.Models.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymTimeServer.Controllers.ClientsController",
+    "Method": "Register",
+    "RelativePath": "api/Clients/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newClient",
+        "Type": "GymTimeServer.Models.Client",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,14 @@
+C:\Users\noamb\Documents\GymProject\Code\GymTimeClient\bin\Debug\net8.0-windows\GymTimeClient.exe
+C:\Users\noamb\Documents\GymProject\Code\GymTimeClient\bin\Debug\net8.0-windows\GymTimeClient.deps.json
+C:\Users\noamb\Documents\GymProject\Code\GymTimeClient\bin\Debug\net8.0-windows\GymTimeClient.runtimeconfig.json
+C:\Users\noamb\Documents\GymProject\Code\GymTimeClient\bin\Debug\net8.0-windows\GymTimeClient.dll
+C:\Users\noamb\Documents\GymProject\Code\GymTimeClient\bin\Debug\net8.0-windows\GymTimeClient.pdb
+C:\Users\noamb\Documents\GymProject\Code\GymTimeClient\obj\Debug\net8.0-windows\GymTimeClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\noamb\Documents\GymProject\Code\GymTimeClient\obj\Debug\net8.0-windows\GymTimeClient.AssemblyInfoInputs.cache
+C:\Users\noamb\Documents\GymProject\Code\GymTimeClient\obj\Debug\net8.0-windows\GymTimeClient.AssemblyInfo.cs
+C:\Users\noamb\Documents\GymProject\Code\GymTimeClient\obj\Debug\net8.0-windows\GymTimeClient.csproj.CoreCompileInputs.cache
+C:\Users\noamb\Documents\GymProject\Code\GymTimeClient\obj\Debug\net8.0-windows\GymTimeClient.dll
+C:\Users\noamb\Documents\GymProject\Code\GymTimeClient\obj\Debug\net8.0-windows\refint\GymTimeClient.dll
+C:\Users\noamb\Documents\GymProject\Code\GymTimeClient\obj\Debug\net8.0-windows\GymTimeClient.pdb
+C:\Users\noamb\Documents\GymProject\Code\GymTimeClient\obj\Debug\net8.0-windows\GymTimeClient.genruntimeconfig.cache
+C:\Users\noamb\Documents\GymProject\Code\GymTimeClient\obj\Debug\net8.0-windows\ref\GymTimeClient.dll
